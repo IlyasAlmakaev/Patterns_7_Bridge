@@ -13,6 +13,10 @@
 		28A529321F30773A00696DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A529301F30773A00696DBB /* Main.storyboard */; };
 		28A529341F30773A00696DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A529331F30773A00696DBB /* Assets.xcassets */; };
 		28A529371F30773A00696DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A529351F30773A00696DBB /* LaunchScreen.storyboard */; };
+		28A529401F30800C00696DBB /* BaseHeadphones.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A5293F1F30800C00696DBB /* BaseHeadphones.m */; };
+		28A529431F30805F00696DBB /* CheapHeadphones.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A529421F30805F00696DBB /* CheapHeadphones.m */; };
+		28A529461F3080D800696DBB /* ExpensiveHeadphones.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A529451F3080D800696DBB /* ExpensiveHeadphones.m */; };
+		28A529491F30814A00696DBB /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A529481F30814A00696DBB /* MusicPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		28A529331F30773A00696DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A529361F30773A00696DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28A529381F30773A00696DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A5293E1F30800C00696DBB /* BaseHeadphones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHeadphones.h; sourceTree = "<group>"; };
+		28A5293F1F30800C00696DBB /* BaseHeadphones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHeadphones.m; sourceTree = "<group>"; };
+		28A529411F30805F00696DBB /* CheapHeadphones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheapHeadphones.h; sourceTree = "<group>"; };
+		28A529421F30805F00696DBB /* CheapHeadphones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheapHeadphones.m; sourceTree = "<group>"; };
+		28A529441F3080D800696DBB /* ExpensiveHeadphones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensiveHeadphones.h; sourceTree = "<group>"; };
+		28A529451F3080D800696DBB /* ExpensiveHeadphones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensiveHeadphones.m; sourceTree = "<group>"; };
+		28A529471F30814A00696DBB /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
+		28A529481F30814A00696DBB /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				28A5292A1F30773A00696DBB /* AppDelegate.h */,
 				28A5292B1F30773A00696DBB /* AppDelegate.m */,
+				28A5293E1F30800C00696DBB /* BaseHeadphones.h */,
+				28A5293F1F30800C00696DBB /* BaseHeadphones.m */,
+				28A529411F30805F00696DBB /* CheapHeadphones.h */,
+				28A529421F30805F00696DBB /* CheapHeadphones.m */,
+				28A529441F3080D800696DBB /* ExpensiveHeadphones.h */,
+				28A529451F3080D800696DBB /* ExpensiveHeadphones.m */,
+				28A529471F30814A00696DBB /* MusicPlayer.h */,
+				28A529481F30814A00696DBB /* MusicPlayer.m */,
 				28A5292D1F30773A00696DBB /* ViewController.h */,
 				28A5292E1F30773A00696DBB /* ViewController.m */,
 				28A529301F30773A00696DBB /* Main.storyboard */,
@@ -151,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A529461F3080D800696DBB /* ExpensiveHeadphones.m in Sources */,
 				28A5292F1F30773A00696DBB /* ViewController.m in Sources */,
+				28A529431F30805F00696DBB /* CheapHeadphones.m in Sources */,
+				28A529401F30800C00696DBB /* BaseHeadphones.m in Sources */,
 				28A5292C1F30773A00696DBB /* AppDelegate.m in Sources */,
 				28A529291F30773A00696DBB /* main.m in Sources */,
+				28A529491F30814A00696DBB /* MusicPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
